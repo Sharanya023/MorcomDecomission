@@ -1,0 +1,73 @@
+[
+  {
+    "description": "Query tracking number",
+    "keyword": "Feature",
+    "name": "Query for a tracking number in shipments and verify a single succesful result",
+    "line": 1,
+    "id": "query-for-a-tracking-number-in-shipments-and-verify-a-single-succesful-result",
+    "tags": [],
+    "uri": "sales.feature",
+    "elements": [
+      {
+        "id": "query-for-a-tracking-number-in-shipments-and-verify-a-single-succesful-result;tracking-number-results",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Tracking Number results",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the website and login to the site",
+            "result": {
+              "status": "passed",
+              "duration": 24362000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Navigates onto Shipments Page",
+            "result": {
+              "status": "passed",
+              "duration": 5854000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "A Valid Tracking number is set",
+            "result": {
+              "status": "passed",
+              "duration": 11385000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "A Valid Tracking number is queried",
+            "result": {
+              "status": "passed",
+              "duration": 1010000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The results should fetch a single record",
+            "result": {
+              "status": "passed",
+              "duration": 582000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
