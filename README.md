@@ -1,2 +1,2 @@
-# MorcomDecomission
-This is MorcomDecomission project framework using Cypress Automation
+# NewProjectCypresss
+This is CYpressCucumber project framework using Cypress Automation
